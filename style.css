@@ -1,0 +1,21 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.header {
+    color: white;
+}
+
+.content {
+    background-color: brown;
+}
+
+.footer {
+    color: white;
+}
