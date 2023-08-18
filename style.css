@@ -5,49 +5,93 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #1F2937;
+    background-color: #332c68;
 }
 
 .header {
     color: white;
-    padding: 20px 150px;
+    padding: 10px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.header img {
+    height: 60px;
+    width: 40px;
+    padding: 0px;
+    margin: 0px;
+}
+
 .header .items {
     display: flex;
     gap: 12px;
-    font-size: 15px;
+    font-size: 20px;
     list-style-type: none;
     margin: 0px;
     padding: 0px;
 }
 
 .content {
-    padding-top: 35px;
+    padding-top: 0px;
     padding-bottom: 35px;
     display: flex;
     flex: 1;
     flex-direction: column;
+    gap: 5px;
 }
 
-.content div {
+.content .section {
     display: flex;
     flex: 1;
     flex-basis: 300px;
-    padding: 35px;
+    padding: 25px;
+    border-radius: 15px;
 } 
 
 .welcome {
     color: white;
-    border-top: 4px solid white;
+    background-color: rgb(35, 20, 85);
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+}
+
+.welcome img {
+    height: 20rem;
+    border-radius: 10px;
 }
 
 .port {
     background-color: white;
+    font-weight: bold;
+    flex-direction: column;
 }
+
+.port .title {
+    text-align: center;
+    color: #49408a;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.port .items{
+    color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    gap: 8px;
+}
+
+.port .items img{
+   height: 380px;
+   border-radius: 8px;
+   flex-shrink: 0;
+}
+
+
 
 .about {
     background-color: grey;
@@ -62,6 +106,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 12px;
+    font-size: 15px;
     padding: 8px;
 }
